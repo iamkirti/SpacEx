@@ -1,0 +1,33 @@
+*{
+  background-color: white;
+}
+
+ .card-title{
+margin-bottom: 1rem;
+
+line-height: 1rem;
+}
+.card-text{
+  line-height: 0.75rem;
+  margin-left: 0rem;
+}
+.f-col{
+  color: navy;
+}
+.rad{
+border-radius: 1rem;
+padding:0rem;
+}
+.card{
+  margin:0rem;
+  width:15.9rem;
+  height:26rem;
+  padding: 0.5rem;
+}
+.bg-col{
+  background-color: lightgray;
+}
+.card-body{
+  padding: 0rem;
+  margin-top: 1rem;
+}

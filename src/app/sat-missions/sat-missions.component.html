@@ -1,0 +1,11 @@
+
+<div class="container">
+<div class="row">
+
+      <app-mission *ngFor="let satelliteEl of satellites;
+      let i=index" [satellite]="satelliteEl"
+     [index]=i >
+      </app-mission>
+
+</div>
+</div>

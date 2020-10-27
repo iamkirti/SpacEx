@@ -1,0 +1,21 @@
+.align-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.btn-success{
+  background-color: lightgreen;
+
+  color: black;
+}
+
+hr{
+  margin-top: 0.25rem;
+}
+*{
+  background-color: white;
+}
+.bor-rad {
+  border-radius: 0.5rem;
+  padding: 10px 0;
+}
