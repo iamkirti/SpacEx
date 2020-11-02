@@ -30,7 +30,7 @@ getSatellitesInit(){
             mission_id:value.mission_id,
             launch_year:value.launch_year,
             launch_success:value.launch_success,
-            links:value.links.mission_patch_small,
+            links:value.links.mission_patch,
             rocket:value.rocket.first_stage.cores[0].land_success
           });
 
@@ -69,8 +69,9 @@ this.http.get<{satellites:any}>('https://api.spaceXdata.com/v3/launches?limit=10
             mission_id:value.mission_id,
             launch_year:value.launch_year,
             launch_success:value.launch_success,
-            links:value.links.mission_patch_small,
-            rocket:value.rocket.first_stage.cores[0].land_success
+            links:value.links.mission_patch,
+            rocket:value.rocket.first_stage.cores[0].land_success,
+
           });
 
          // this.satellitesUpdated.next([...this.satellites]);

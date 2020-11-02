@@ -1,6 +1,61 @@
+/*
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
-
-
+@media (min-width: 700px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
 app-mission{
 border-radius: 0.5rem;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* .cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cards{
+  padding: 0;
+}
+
+/* .cards::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+/* app-mission{
+  border-radius: 0.5rem;
+  display:inline;
+  } */
+
+
+/* .row {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+} */

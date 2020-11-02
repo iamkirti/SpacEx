@@ -1,4 +1,4 @@
-*{
+/* *{
   background-color: white;
 }
 
@@ -23,6 +23,9 @@ padding:0rem;
   width:15.9rem;
   height:26rem;
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 .bg-col{
   background-color: lightgray;
@@ -30,4 +33,149 @@ padding:0rem;
 .card-body{
   padding: 0rem;
   margin-top: 1rem;
+}
+img{
+  background-color: lightgray;
+  max-width: 100%;
+  height: auto;
+
+  vertical-align: middle;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+
+  font-family: arial;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 1024px) {
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+
+.responsive {
+  width: 100%;
+  min-width: 700px;
+  height: auto;
+}
+ */
+
+ /* .card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+/* .cards_item {
+  display: flex;
+  padding: 1rem;
+} */
+.cards_item{
+display:inline-block;
+vertical-align: top;
+
+background-color: white;
+		margin: 0;
+
+
+}
+@media (min-width: 700px) {
+  .cards_item {
+    width: 50%;
+    height:55rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards_item {
+    width: 25%;
+    height:27rem;
+  }
+}
+
+.card_text {
+  line-height: 0.75rem;
+  margin-left: 0rem;
+
+
+}
+img{
+  background-color:lightgray;
+  max-width: 100%;
+  height: auto;
+
+  vertical-align: middle;
+}
+
+.card-body{
+  padding: 0rem;
+  margin-top: 1rem;
+background-color: white;
+}
+
+.card {
+  background-color: white;
+  padding:1rem;
+  border-radius: 0.25rem;
+
+
 }

@@ -1,5 +1,5 @@
 
-<div class="container">
+<!-- <div class="container">
 <div class="row">
 
       <app-mission *ngFor="let satelliteEl of satellites;
@@ -8,4 +8,24 @@
       </app-mission>
 
 </div>
-</div>
+</div> -->
+
+<!-- <div class="grid-container">
+  <div class="row">
+        <app-mission *ngFor="let satelliteEl of satellites;
+        let i=index" [satellite]="satelliteEl"
+       [index]=i >
+        </app-mission>
+  </div>
+  </div> -->
+<div class="main">
+  <ul class="cards">
+
+          <app-mission *ngFor="let satelliteEl of satellites;
+          let i=index" [satellite]="satelliteEl"
+         [index]=i >
+          </app-mission>
+
+        </ul>
+  </div>
+

@@ -1,5 +1,5 @@
 
-<div class="col-lg-6 col-md-6 col-xl-3 col-xs-12 col-sm-12 rad">
+<!-- <div class="col-lg-6 col-md-6 col-xl-3 col-xs-12 col-sm-12 rad">
 <div class="card mb-3 mp-3 mr-3">
   <img class="card-img-top img-fluid bg-col" src="{{satellite.links}}" alt="Satellite image cap">
   <div class="card-body">
@@ -11,6 +11,19 @@
   </div>
 </div>
 </div>
+ -->
+ <li class="cards_item">
+  <div class="card">
+    <div class="card_image"><img src="{{satellite.links}}" alt="Satellite image cap" ></div>
+    <div class="card-body">
+      <h5 class="card-title f-col">{{satellite.mission_name}} #{{satellite.flight_number}}</h5>
+      <p class="card-text"><b>Mission Ids:</b> {{satellite.mission_id}}</p>
+      <p class="card-text"><b>Launch Year:</b> {{satellite.launch_year}}</p>
+      <p class="card-text"><b>Successful Launch:</b> {{satellite.launch_success}}</p>
+      <p class="card-text"><b>Successful Landing:</b> {{satellite.rocket}}</p>
+    </div>
+  </div>
+</li>
 
 
 
